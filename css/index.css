@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&family=Sevillana&display=swap');
+
+:root {
+    --fm1: 'Roboto Slab', serif;
+    --fm2: 'Sevillana', cursive;
+}
+
+* {
+    font-family: var(--fm1);
+}
+
+.mmm-style {
+    font-family: var(--fm2);
+    color: #fff;
+}
+
+.mmm-header {
+    width: 100%;
+    min-height: 100vh;
+    background: url(/public/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-body * {
+    font-size: 1.1rem;
+}
+
+.card-img-left {
+    width: 200px;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+}
